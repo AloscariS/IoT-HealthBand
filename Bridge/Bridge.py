@@ -84,8 +84,8 @@ class AFBridge():
 
 
     def useData(self):
-        # è stata ricevuta una linea dalla porta seriale, adesso si utilizza
-        if len(self.inbuffer) < 3:  # al minimo header, dimensione e footer
+        # arrivati a questo punto è stata ricevuta una linea dalla porta seriale, si procede con l'utilizzo
+        if len(self.inbuffer) < 3:  # dimensione 3 ovvero al minimo bisogna avere header, dimensione e footer
             return False
         # controllo dell'header del pacchetto
         if self.inbuffer[0] != b'\xff' and self.inbuffer[0] != b'\xfd': # xff {xfd} è l'header per dati relativi alla frequenza cardiaca {alla temperatura}

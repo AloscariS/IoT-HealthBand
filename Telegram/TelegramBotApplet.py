@@ -12,7 +12,7 @@ from threading import Timer,Thread,Event
 from Adafruit_IO import Client, Feed
 
 aio = Client(ADAFRUIT_IO_USERNAME, ADAFRUIT_IO_KEY)
-# Creazione degli un oggetti di tipo Feed
+# Creazione degli un oggetti di tipo Feed (oggetti che rappresentano i feed adafruit)
 bpmFeed = Feed(name='bmp')
 tempFeed = Feed(name='temperature')
 
@@ -22,8 +22,8 @@ logging.basicConfig(level=logging.DEBUG,
 logger = logging.getLogger()
 logger.setLevel(logging.DEBUG)
 
-# Definire alcuni handler (gestori) di comandi. Questi di solito prendono i due argomenti update e
-# context. Gli handler ricevono anche l'oggetto TelegramError che viene sollevato in caso d'errore.
+# Definire alcuni handler (gestori) di comandi. Questi di solito prendono i due argomenti (update e
+# context). Gli handler ricevono anche l'oggetto TelegramError che viene sollevato in caso d'errore.
 def start(update, context):
     """Send a message when the command /start is issued."""
     update.message.reply_text("Ciao, io sono <b>Healthband Bot</b>. Ti aiuterò a monitorare "
