@@ -19,10 +19,14 @@ The main objective of IOT HEALTHBAND is to provide an effective tool for "superv
 
 4. **Real-Time Notifications**: The system sends automatic alerts in case of:
    - Abnormal vital parameter values
-   - Leaving the residential area
+   - Leaving the residential area (Look at Figure 2)
    - Entering potentially risky areas*
 
 5. **Data History**: Ability to view trends in vital parameters over time, useful for identifying recurring trends or anomalies.
+
+
+![IOT HEALTHBAND Demo](Medias/HB_Notification.gif)
+*Fugure 2: Example of automatic alert*
 
 ## Project Development
 
@@ -59,7 +63,7 @@ The Telegram bot offers various features accessible through specific commands:
 The project envisions further developments to improve and expand the prototype's functionalities, with the aim of making it even more effective and user-friendly both for phisical and software part.
 
 ![IOT HEALTHBAND Physical Prototype](Medias/design_prot.png)
-*Figure 2: Set of the proposed IOT HEALTHBAND prototype design*
+*Figure 3: Set of the proposed IOT HEALTHBAND prototype design*
 
 IOT HEALTHBAND represents a significant step towards a proactive approach to health, combining wearable technology, Internet of Things, and real-time communication to improve the quality of life and safety of at-risk individuals.
 
