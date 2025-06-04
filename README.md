@@ -1,9 +1,9 @@
 # IOT HEALTHBAND
 
+IOT HEALTHBAND is an innovative project aimed at developing a prototype of a wearable band for continuous monitoring of vital parameters, specifically designed for at-risk individuals such as unaccompanied elderly or people with bad cardiac conditions.
+
 ![IOT HEALTHBAND Architecture](Medias/IoT_Project_Architecture.png)
 *Figure 1: Modules and sub-modules of the project architecture*
-
-IOT HEALTHBAND is an innovative project aimed at developing a prototype of a wearable band for continuous monitoring of vital parameters, specifically designed for at-risk individuals such as unaccompanied elderly or people with bad cardiac conditions.
 
 ## Project Objective
 
